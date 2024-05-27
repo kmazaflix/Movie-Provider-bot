@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'googlyurl.com'))
 STREAM_API = (environ.get('STREAM_API', 'd83ba0be8626d4b6a7077ba6e477bfdd9c22b9e8'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Ultroid_Official/18'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/StreamFlix_Update'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5023341854').split()]
@@ -59,23 +59,23 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files489')
 # Verify/token system
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Ultroid_Official/18') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/StreamFlix_Update') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'googlyurl.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd83ba0be8626d4b6a7077ba6e477bfdd9c22b9e8')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f968d4c3a5fad1c43d27e391379aed1397d43453')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MovizTube_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MovizTube')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Ultroid_Official/18') # Tutorial video link for opening shortlink website 
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/StreamFlixfinder')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/StreamFlix_Update')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/StreamFlix_Update') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ultroidxTeam')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : StreamFlix')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001912362438')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UltroidOfficial_chat') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/StreamfFlix_Support') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
