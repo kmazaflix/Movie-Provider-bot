@@ -64,7 +64,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/StreamFlix_Update') # How
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'f968d4c3a5fad1c43d27e391379aed1397d43453')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
